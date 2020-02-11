@@ -6,7 +6,7 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 
 public class SelectRegisteredOwnerPage extends FridayBasePage<SelectRegisteredOwnerPage> {
 
-    private static final By PAGE_ID = By.xpath("//span[text()='Bist du der Halter des Autos (zugelassen auf dich)?']");
+    private static final By PAGE_ID = By.xpath("//span[text()='Wird das Auto auf dich zugelassen?']");
     private static final By NEXT_BUTTON = By.xpath("//button[@type='submit']");
 
     public SelectRegisteredOwnerPage() {
