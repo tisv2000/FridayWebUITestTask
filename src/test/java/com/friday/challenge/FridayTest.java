@@ -33,7 +33,6 @@ public class FridayTest extends BaseTest {
                 .selectEngine(vehicle.getEngine())
                 .validateIsRightPage()
                 .enterFirstRegistrationData(firstRegistrationData)
-                .enterOwnerRegistrationData(ownerRegistrationData)
                 .clickNextButton()
                 .getWizardTitle();
         Assert.assertEquals(actualWizardTitle, expectedWizardTitle, "Mismatch wizard title");
